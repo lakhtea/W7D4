@@ -26,7 +26,11 @@
 
 	ul {
 		display: flex;
+		li:first-of-type {
+			font-weight: 700;
+		}
 	}
+	
 }
 
 .logo {
@@ -45,6 +49,12 @@
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 	}
+	li:last-of-type{
+		border-right: none;
+	}
+	li:first-of-type{
+		padding-right: 10px;
+	}
 
 	button {
 		background: none;
@@ -62,6 +72,7 @@
 	button, 
 	time {
 		margin-right: 10px;
+
 	}
 
 	i {
@@ -71,4 +82,5 @@
 	strong {
 		color: green;
 	}
+	
 }
