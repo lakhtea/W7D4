@@ -1,23 +1,30 @@
 // Use the gear_dropdown.png screenshot as a style guide
-#gear-dropdown {
+#gear-dropdown-button {
   position: relative;
+  padding-bottom: 5px;
 }
 
-#gear-dropdown:hover {
+#gear-dropdown-button:hover, #gear-dropdown:hover {
   .hidden {
     display: block;
-    z-index: 1;
-    top: 40px;
-    right: 30px;
-    width: 70px;
+    z-index: 2;
+    top: 30px;
+    right: 5px;
+    width: 200px;
     border: 1px solid gray;
+    transition-duration: 1s;
   }
 }
-.gear-dropdown {
+#gear-dropdown {
   position: absolute;
+  box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
   li {
-    padding: 3px;
+   padding: 5px;
   }
+  hr {
+    margin: 5px;
+  }
+  
 }
 
 .hidden {
@@ -25,7 +32,34 @@
 }
 
 .editions {
+  li a{
+    font-size: 16px;
+    color: $gray;
+    display: block;
+  }
+  li:hover{
+    background-color: $gray;
+    a {
+    color: black;
+    text-decoration: none;
+    background-color: $gray;
+   
+  }
+    
+    
+  }
 }
 
 .help {
+  a {
+    color: $blue;
+    display: block;
+  }
 }
+
+.dropdown-subtitle {
+    color: $gray;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+

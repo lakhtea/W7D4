@@ -1,6 +1,7 @@
 .sections-nav {
   ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border-bottom: 1px solid gray;
     li {
