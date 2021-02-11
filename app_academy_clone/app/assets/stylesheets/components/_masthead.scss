@@ -50,6 +50,9 @@
   }
   li:last-of-type {
     border-right: none;
+    span {
+      color: rgb(80, 110, 35);
+    }
   }
   li:first-of-type {
     padding-right: 10px;
