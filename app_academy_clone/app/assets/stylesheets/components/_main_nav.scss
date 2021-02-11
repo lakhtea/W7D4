@@ -12,13 +12,13 @@
 }
 
 .left-nav {
-
   > ul {
     > li {
       font-family: sans-serif;
       font-weight: 700;
       font-size: 12px;
       text-transform: uppercase;
+      margin: 10px;
     }
   }
 
@@ -27,19 +27,16 @@
   }
 }
 
-.right-nav  {
-
+.right-nav {
   > ul {
-
     > li {
       margin: 0 2px;
     }
 
     > li:last-of-type {
-  
     }
   }
-  
+
   i {
     font-size: 16px;
   }

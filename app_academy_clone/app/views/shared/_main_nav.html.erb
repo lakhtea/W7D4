@@ -16,7 +16,10 @@
 	<ul>
 		<li><button>Subscribe now</button></li>
 		<li><button>log in</button></li>
-		<li><i class="fas fa-cog"></i></li>
+		<li id="gear-dropdown">
+			<i class="fas fa-cog"></i>
+			<%= render partial: 'shared/gear_dropdown' %>
+		</li>
 		</ul>
 	</nav>
 </header>
