@@ -1,16 +1,62 @@
-<% arr=["World", "San Francisco" , "New York" , "Bootcamp Prep" , "Jumpstart" , "Online" , "Marketing" , "Sales"
-    , "TalentMatch" , "Alumni" , "All" ] %>
-
-    <div class="sections-nav">
+<% arr=["World", "San Francisco" , "New York" , "Bootcamp Prep" , "Jumpstart" ,"Online" , "Marketing" , "Sales", "TalentMatch" , "Alumni" , "All" ] %>
+ 
+    <ul class="dropdown">
+      <li>World</li>
+      <li class="dropdown">San Fran
         <ul>
-            <% arr.each do |el| %>
-                <li><a href="">
-                        <%= el %>
-                    </a></li>
-                <% end %>
+          <li>Students</li>
+          <li>Teaching Assistants</li>
+          <li>Instructors</li>
+          <li>Career Advisors</li>
+          <li>Cats</li>
         </ul>
-    </div>
+      </li>
+      <li>New York</li>
+      <li class="dropdown">Bootcamp Prep
+        <ul>
+          <li>Students</li>
+          <li>Instructors</li>
+          <li>Cats</li>
+        </ul>
+      </li>
 
+      <li class="dropdown">Bootcamp Prep
+        <ul>
+          <li>Students</li>
+          <li>Instructors</li>
+          <li>Cats</li>
+        </ul>
+      </li>
+      <li>Jumpstart</li>
+      <li class="dropdown">Online
+        <ul>
+          <li>Immersive</li>
+          <li>Bootcamp Prep</li>
+          <li>Cats</li>
+        </ul>
+      </li>
+      <li>Marketing</li>
+      <li class="dropdown">Sales
+        <ul>
+          <li>Associates</li>
+          <li>Analytics</li>
+          <li>Cats</li>
+        </ul>
+      </li>
+      <li>TalentMatch</li>
+      <li class="dropdown">Alumni
+        <ul>
+          <li>Students</li>
+          <li>Companies</li>
+          <li>Opinions</li>
+          <li>Cats</li>
+        </ul>
+      </li>
+    </ul>
+
+
+
+<!-- 
     San Francisco
     Students
     Teaching Assistants
@@ -37,4 +83,4 @@
     Students
     Companies
     Opinions
-    Cats
+    Cats -->
