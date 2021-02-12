@@ -46,3 +46,14 @@
 .left-nav > ul > li:hover {
   background-color: lightgray;
 }
+
+@media all and (max-width: 1000px){
+  .left-nav, .main-nav {
+    margin: 0;
+    padding: 10px;
+  }
+  .subscribe-button, .log-in-button {
+    display: none;
+    
+  }
+}
